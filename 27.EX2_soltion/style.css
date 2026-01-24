@@ -1,0 +1,11 @@
+    div p:first-child {
+        background-color: yellow;
+        color: red;
+        padding: 7px;
+    }
+
+    div p:not(:first-child){
+        background-color: aquamarine;
+        color:red;
+        padding:7px;
+    }
